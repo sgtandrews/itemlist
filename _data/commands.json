@@ -306,5 +306,103 @@
     "shortcut": false,
     "usage": "!insult [target]",
     "userLevel": "UserLevel"
-  }
+  },
+      {
+        "description": "Will bring all tamed animals animalType in the colony",
+        "name": "Query Tamed animals by type",
+        "shortcut": false,
+        "usage": "!animals [animalType]",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Will bring all details for the animal named animalName",
+        "name": "Query Tamed animals by name",
+        "shortcut": false,
+        "usage": "!animals [animalName]",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Will bring a list of all player colonists",
+        "name": "List Player Colonists",
+        "shortcut": false,
+        "usage": "!colonists",
+        "userLevel": "Anyone"
+    },    
+    {
+        "description": "Will bring the details for the colonist named colonistName",
+        "name": "List details of colonistName",
+        "shortcut": false,
+        "usage": "!colonist colonistName",
+        "userLevel": "Anyone"
+    },  
+    {
+        "description": "Will bring the skill details for the colonist named colonistName",
+        "name": "Query skills of colonistName",
+        "shortcut": false,
+        "usage": "!skills colonistName",
+        "userLevel": "Anyone"
+    }, 
+    {
+        "description": "Will bring a total count of the items that contain itemName. itemName must be at least 4 characters long for it to be a valid search.",
+        "name": "Query itemName",
+        "shortcut": false,
+        "usage": "!item itemName",
+        "userLevel": "Anyone"
+    }, 
+    {
+        "description": "Will bring a total count of the animalType that matches pawn or a count of the colonists if pawn is colonist",
+        "name": "Query pawn",
+        "shortcut": false,
+        "usage": "!count pawn",
+        "userLevel": "Anyone"
+    }, 
+    {
+        "description": "Will bring a list of non-medical drugs",
+        "name": "Query non-medical drugs",
+        "shortcut": false,
+        "usage": "!drugs",
+        "userLevel": "Anyone"
+    }, 
+    {
+        "description": "Will bring the health status of the colonist named colonistName",
+        "name": "Query Health Status of colonistName",
+        "shortcut": false,
+        "usage": "!health colonistName",
+        "userLevel": "Anyone"
+    }, 
+    {
+        "description": "Will bring the traits and background story of the colonist named colonistName",
+        "name": "Query Traits n Background of colonistName",
+        "shortcut": false,
+        "usage": "!traits colonistName",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Will bring a list of the prepared meals available",
+        "name": "Query Meals Available",
+        "shortcut": false,
+        "usage": "!meals",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Will bring the count of animalType on the map",
+        "name": "Query Wildlife of animalType",
+        "shortcut": false,
+        "usage": "!wild animalType",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Will bring a list with the registered commands",
+        "name": "List Twitch Colony Commands",
+        "shortcut": false,
+        "usage": "!tcshelp",
+        "userLevel": "Anyone"
+    },
+    {
+        "description": "Will bring the explanation for the command commandName",
+        "name": "Query help of tcs command",
+        "shortcut": false,
+        "usage": "!tcshelp commandName",
+        "userLevel": "Anyone"
+    }
 ]
